@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+function initMap() {
+  var x = {lat:16.5062, lng:80.6480 };
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: x});
+      var marker = new google.maps.Marker({position: x, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOMZCZ0dPPQaLp7VgPXZVzeR3Ftgv7HV0&callback=initMap">
+    </script>
+  </body>
+</html>
