@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="javascript.js">
+      alert();
+
+    </script>
+  </head>
+  <body>
+    <p id = "p1">
+      <a href="http://www.facebook.com">
+        <img src="body/button.png" width="65" height="50" alt="facebook">
+      </a>
+      <a href="http://www.linkedin.com">
+        <img src="body/button.png" width="65" height="50" alt="linkedin">
+      </a>
+      <a href="http://www.instagram.com">
+        <img src="body/button.png" width="65" height="50" alt="instagram">
+      </a>
+      <a href="http://www.twitter.com">
+        <img src="body/button.png" width="65" height="50" alt="twitter">
+      </a>
+      <a href="http://www.youtube.com">
+        <img src="body/button.png" width="65" height="50" alt="youtube">
+      </a>
+    </p>
+    <!----------------Lists------------------------->
+    <p id="list1">
+      <ul>
+        <li><a href="http://www.facebook.com">facebook</a>
+          <ol>
+            <li><a href="https://www.facebook.com/memes/">best meme page</a></li>
+          </ol>
+        </li>
+
+        <li><a href="http://www.linkedin.com">linkedin</a>
+          <ol>
+            <li><a href="https://www.linkedin.com/in/sudhendra-kambhamettu-6b991b169/">My linkedin profile</a></li>
+          </ol>
+        </li>
+
+        <li><a href="http://www.instagram.com">instagram</a><ol>
+          <li><a href="https://www.instagram.com/the.hottest.gallery/?hl=en">Hot chicks of instagram</a></li>
+        </ol>
+      </li>
+
+        <li><a href="http://www.twitter.com">twitter</a><ol>
+          <li><a href="https://twitter.com/BreakingNews?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Latest news feed from twitter</a></li>
+        </ol>
+      </li>
+
+        <li><a href="http://www.youtube.com">youtube</a><ol>
+          <li><a href="https://www.youtube.com/watch?v=Z1RJmh_OqeA&list=WL&index=4&t=0s">Learn flask from youtube</a></li>
+        </ol>
+      </li>
+
+      </ul>
+    </p>
+    <table border="l" id="Fruits">
+      <caption><strong>Table of Fruits and their Prices</strong></caption>
+      <thead>
+        <tr>
+          <th>Fruit</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$3.75</th>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>Apple</td>
+          <td>$0.25</td>
+        </tr>
+        <tr>
+          <td>Orange</td>
+          <td>$0.50</td>
+        </tr>
+        <tr>
+          <td>Banana</td>
+          <td>$1.00</td>
+        </tr>
+        <tr>
+          <td>Pineapple</td>
+          <td>$1.00</td>
+        </tr>
+        <tr>
+          <td>Kiwi</td>
+          <td>$1.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-----------------------Second table with more complexity!--------------------->
+    <table border="l" id="Camel">
+      <caption><strong>A table on Camel stuff</strong></caption>
+      <thead>
+        <tr>
+          <th rowspan="2">
+            <img src="body/camel.png"width="205" height="167" alt="Camel Picture">
+          </th>
+          <th colspan="4">
+            <strong>Camelid comparision</strong><br>
+            Approximate as of 10/2019
+          </th>
+        </tr>
+        <tr>
+          <th># of humps</th>
+          <th>Indegenious Region</th>
+          <th>Spits?</th>
+          <th>Produces wool?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Camels (bactrian)</th>
+          <td>2</td>
+          <td>Africa/Asia</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <th>Llamas</th>
+          <td>1</td>
+          <td>Andes Mountains</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
+    <!---------------------------------------Forms---------------------------------->
+    <h3>Feedback Form</h3>
+    <p>Please fill out this form to help us imporove this site</p>
+    <form action="http://www.deitel.com" method="post" class="form1">
+      <input type="hidden" name="recepient" value="deitel@deitel.com">
+      <input type="hidden" name="subject" value="Feedback form">
+      <input type="hidden" name="redirect" value="html2.html">
+
+      <p>
+        <label>Name:
+          <input type="text" name="Name" size="25" maxlength="30">
+        </label></p>
+        <p>
+        <label>Comments:<br>
+          <textarea name="comments" rows="4" cols="36">Enter Comments here.</textarea>
+        </label>
+      </p>
+      <p>
+        <label>Email address:
+          <input type="passowrd" name="email" size="25">
+        </label>
+      </p>
+      <p>
+        <strong>Things you liked</strong>
+        <label>Site Design
+          <input type="checkbox" name="thingsliked" value="Design">
+        </label>
+        <label>Links
+          <input type="checkbox" name="thingsliked" value="links">
+        </label>
+        <label>Images
+          <input type="checkbox" name="thingsliked" value="images">
+        </label>
+        <label>Ease of use
+          <input type="checkbox" name="thingsliked" value="Ease">
+        </label>
+        <label>Source code
+          <input type="checkbox" name="thingsliked" value="links">
+        </label>
+      </p>
+      <p>
+        <strong>How did you get to our site?</strong>
+        <label>Search Engine
+          <input type="radio" name="howtosite" value="Search">
+        </label>
+        <label>Links from another site
+          <input type="radio" name="howtosite" value="Links">
+        </label>
+        <label>deitel.com website
+          <input type="radio" name="howtosite" value="deitel.com">
+        </label>
+        <label>Reference in a book
+          <input type="radio" name="howtosite" value="book">
+        </label>
+        <label>Other
+          <input type="radio" name="howtosite" value="Other">
+        </label>
+      </p>
+      <p>
+        <label>Rate our Site
+          <select name="rating">
+            <option selected>Amazing</option>
+            <option>10</option>
+            <option>9</option>
+            <option>8</option>
+            <option>7</option>
+            <option>6</option>
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+            <option>Awful</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <input id="submit" type="submit" value="submit">
+        <input id="reset" type="reset"  value="reset">
+      </p>
+    </form>
+    <!---------------------------------------------------Internal linking----------------------------------------->
+    <div class="in_linking">
+      <p><a href="#Fruits">Go to the <em>Fruits</em> table</a></p>
+      <p><a href="#Camel">Go to the <em>Camel</em> table</a></p>
+    </div>
+    <!---------------------------------------------------More input types----------------------------------------->
+    <h3>Form #2</h3>
+    <form class="form2" action="html1.html" method="post">
+      <p>
+        <label>Color:
+          <input type="color" autofocus/> (Hexadecimal code such as #ADD8E6)
+        </label>
+      </p>
+      <p>
+        <label>Date:
+          <input type="date"/> (yyy-mm-dd)
+        </label>
+      </p>
+      <p>
+        <label>Date-Time:
+          <input type="datetime"/> (yyyy-mm-ddThh:mm+ff:gg, such as 2019-01-20T03:46)
+        </label>
+      </p>
+      <p>
+        <label>DateTime-Local:
+          <input type="datetime-local"/> (yyyy-mm-ddThh:mm such as 2019-01-20T03:46)
+        </label>
+      </p>
+      <p>
+        <label>Email:
+          <input type="email" placeholder="name@domain.com"/> (name@domain.com)
+        </label>
+      </p>
+      <p>
+        <label>Month:
+          <input type="month"/> (yyyy-m)
+        </label>
+      </p>
+      <p>
+        <label>Number:
+          <input type="number" min="0" max="7" step="1" value="4"/> (Enter a number between 0 and 7)
+        </label>
+      </p>
+      <p>
+        <label>Range:
+          <input type="range" min="0" max="20" value="10"/> 20
+        </label>
+      </p>
+      <p>
+        <label>Search:
+          <input type="search" placeholder="search query"/> (Enter your search query here)
+        </label>
+      </p>
+      <p>
+        <label>Tel:
+          <input type="tel" placeholder="(###) ###-####" pattern="\(\d{3}\) + \d{3}-\d{4}" required/> (###) ###-####
+        </label>
+      </p>
+      <p>
+        <label>Time:
+          <input type="time" /> (hh:mm:ss)
+        </label>
+      </p>
+      <p>
+        <label>Week:
+          <input type="week"/> (yyyy-Wnn, such as 2019-W01)
+        </label>
+      </p>
+      <p>
+        <label>URL:
+          <input type="url" placeholder="http://domainname.com" /> (http://domainname.com)
+        </label>
+      </p>
+      <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+        <button type="button" onclick="myFunction();">Click me!</button>
+      </p>
+    </form>
+    <p id="random_p"><strong>Random Paragraph</strong>
+      In this exercise, the idea is to write a paragraph that would be a random passage from a story. An effective paragraph is one that has unity (it isn’t a hodgepodge of things), focus (everything in the paragraph stacks up to the whatever-it-is the paragraph is about), and coherence (the content follows smoothly). For this exercise, the paragraph should be quick to read--say, not be more than 100 words long.
+      A paragraph needn’t be several sentences long, but might be only a sentence or two, or a single line of dialogue.
+    </p>
+    <p id="text_01">
+      In this exercise, the idea is to write a paragraph that would be a random passage from a story. An effective paragraph is one that has unity (it isn’t a hodgepodge of things), focus (everything in the paragraph stacks up to the whatever-it-is the paragraph is about), and coherence (the content follows smoothly). For this exercise, the paragraph should be quick to read--say, not be more than 100 words long.
+      A paragraph needn’t be several sentences long, but might be only a sentence or two, or a single line of dialogue.
+    </p>
+  </body>
+</html>

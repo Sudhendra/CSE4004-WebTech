@@ -1,0 +1,5 @@
+.form2:hover{
+  border-style: dashed;
+  border-width: thick;
+  border-radius: 25px;
+}

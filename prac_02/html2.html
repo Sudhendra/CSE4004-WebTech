@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body>
+    <h3>Feedback Form</h3>
+    <form action="http://www.deitel.com" method="post" class="form1">
+      <p>Please fill out this form to help us imporove this site</p>
+      <input type="hidden" name="recepient" value="deitel@deitel.com">
+      <input type="hidden" name="subject" value="Feedback form">
+      <input type="hidden" name="redirect" value="html2.html">
+      <div id="1">
+        <p>
+          <label>Name:
+            <input type="text" name="Name" size="25" maxlength="30">
+          </label></p>
+          <p>
+          <label>Comments:<br>
+            <textarea name="comments" rows="4" cols="36">Enter Comments here.</textarea>
+          </label>
+        </p>
+      </div id="2">
+      <div>
+        <p>
+          <label>Email address:
+            <input type="passowrd" name="email" size="25">
+          </label>
+        </p>
+      </div>
+      <div id="3">
+        <p>
+          <strong>Things you liked</strong>
+          <label>Site Design
+            <input type="checkbox" name="thingsliked" value="Design">
+          </label>
+          <label>Links
+            <input type="checkbox" name="thingsliked" value="links">
+          </label>
+          <label>Images
+            <input type="checkbox" name="thingsliked" value="images">
+          </label>
+          <label>Ease of use
+            <input type="checkbox" name="thingsliked" value="Ease">
+          </label>
+          <label>Source code
+            <input type="checkbox" name="thingsliked" value="links">
+          </label>
+        </p>
+      </div>
+      <div id="4">
+        <p>
+          <strong>How did you get to our site?</strong>
+          <label>Search Engine
+            <input type="radio" name="howtosite" value="Search">
+          </label>
+          <label>Links from another site
+            <input type="radio" name="howtosite" value="Links">
+          </label>
+          <label>deitel.com website
+            <input type="radio" name="howtosite" value="deitel.com">
+          </label>
+          <label>Reference in a book
+            <input type="radio" name="howtosite" value="book">
+          </label>
+          <label>Other
+            <input type="radio" name="howtosite" value="Other">
+          </label>
+        </p>
+      </div>
+      <div id="5">
+        <p>
+          <label>Rate our Site
+            <select name="rating">
+              <option selected>Amazing</option>
+              <option>10</option>
+              <option>9</option>
+              <option>8</option>
+              <option>7</option>
+              <option>6</option>
+              <option>5</option>
+              <option>4</option>
+              <option>3</option>
+              <option>2</option>
+              <option>1</option>
+              <option>Awful</option>
+            </select>
+          </label>
+        </p>
+      </div>
+      <div id="6">
+        <p>
+          <button type="button" onclick="myFunction();" id="submit">Submit</button>
+          <button type="button" onclick="myFunction1();" id="reset">Reset</button>
+        </p>
+      </div>
+    </form>
+    <ul class="list">
+            <li class=items>your name<button class="list-btn">X</button></li>
+            <li class=items>friends name<button class="list-btn">X</button></li>
+            <li class=items>best friends name<button class="list-btn">X</button></li>
+            <li class=items>4<button class="list-btn">X</button></li>
+        </ul>
+  </body>
+</html>

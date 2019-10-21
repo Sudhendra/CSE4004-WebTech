@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>New Form!</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+  </head>
+  <body>
+    <h3>Form #2</h3>
+    <form class="form2" action="html1.html" method="post">
+      <p>
+        <label>Color:
+          <input type="color" autofocus/> (Hexadecimal code such as #ADD8E6)
+        </label>
+      </p>
+      <p>
+        <label>Date:
+          <input type="date"/> (yyy-mm-dd)
+        </label>
+      </p>
+      <p>
+        <label>Date-Time:
+          <input type="datetime"/> (yyyy-mm-ddThh:mm+ff:gg, such as 2019-01-20T03:46)
+        </label>
+      </p>
+      <p>
+        <label>DateTime-Local:
+          <input type="datetime-local"/> (yyyy-mm-ddThh:mm such as 2019-01-20T03:46)
+        </label>
+      </p>
+      <p>
+        <label>Email:
+          <input type="email" placeholder="name@domain.com"/> (name@domain.com)
+        </label>
+      </p>
+      <p>
+        <label>Month:
+          <input type="month"/> (yyyy-m)
+        </label>
+      </p>
+      <p>
+        <label>Number:
+          <input type="number" min="0" max="7" step="1" value="4"/> (Enter a number between 0 and 7)
+        </label>
+      </p>
+      <p>
+        <label>Range:
+          <input type="range" min="0" max="20" value="10"/> 20
+        </label>
+      </p>
+      <p>
+        <label>Search:
+          <input type="search" placeholder="search query"/> (Enter your search query here)
+        </label>
+      </p>
+      <p>
+        <label>Tel:
+          <input type="tel" placeholder="(###) ###-####" pattern="\(\d{3}\) + \d{3}-\d{4}" required/> (###) ###-####
+        </label>
+      </p>
+      <p>
+        <label>Time:
+          <input type="time" /> (hh:mm:ss)
+        </label>
+      </p>
+      <p>
+        <label>Week:
+          <input type="week"/> (yyyy-Wnn, such as 2019-W01)
+        </label>
+      </p>
+      <p>
+        <label>URL:
+          <input type="url" placeholder="http://domainname.com" /> (http://domainname.com)
+        </label>
+      </p>
+      <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+        <button type="button" onclick="myFunction();">Click me!</button>
+      </p>
+    </form>
+  </body>
+</html>

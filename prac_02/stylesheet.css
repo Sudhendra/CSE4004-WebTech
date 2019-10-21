@@ -1,0 +1,65 @@
+#p1 {
+  background-color: red;
+}
+#list1{
+  background-color: red;
+  color: blue;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+#Fruits{
+  color: yellow;
+  background-color: red;
+}
+#Fruits caption{
+  color: red;
+  font-family: fantasy;
+  font-style: italic;
+}
+#Camel{
+  border-color: blue;
+  border-width: medium;
+  column-fill: auto;
+  color: red;
+}
+.form1{
+  border-style: double;
+  border-radius: 22px;
+  padding: 1em;
+}
+.in_linking:hover{
+  background-color: navy;
+  font-family: fantasy;
+  text-transform: capitalize;
+}
+.form2:hover{
+  border-style: dashed;
+  border-width: thick;
+  border-radius: 25px;
+}
+.form1 input:nth-last-child(2){
+  background: red;
+}
+body{
+
+  border: 2px solid black;
+  padding: 2.5em;
+  background: url("body/smile.jpg") no-repeat center;
+}
+#random_p{
+  letter-spacing: 0.05em;
+  word-spacing: 0.5em;
+  text-align: justify;
+  text-transform: capitalize;
+  text-decoration: line-through;
+  background-color: aquamarine;
+  box-shadow: inset 5px 5px 3px 1px #999;
+  text-shadow: 2px 2px 2px #999;
+}
+
+}
+li::before{
+  content: "POW!";
+  background: red;
+  color: #fc0;
+}
