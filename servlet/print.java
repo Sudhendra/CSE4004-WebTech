@@ -13,8 +13,8 @@ public class test extends HttpServlet{
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws ServletException, IOException {
-		int s1 = Integer.parseInt(req.getParameter("inp1"));
-		int s2 = Integer.parseInt(req.getParameter("inp2"));
+		int s1 = Integer.parseInt(req.getParameter("input1"));
+		int s2 = Integer.parseInt(req.getParameter("input2"));
 		int s= s1+s2;
 		 PrintWriter out = resp.getWriter();
 	        out.println(s);	}
